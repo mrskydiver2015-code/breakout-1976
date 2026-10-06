@@ -1,0 +1,115 @@
+{
+  "target": "file:///C:/AI-Projects/Breakout/index.html",
+  "checks": [
+    "HTTP response successful",
+    "correct title",
+    "start enters ready state",
+    "launch enters playing state",
+    "pause freezes simulation",
+    "resume restores play",
+    "mute survives reload",
+    "localStorage round trip",
+    "animation cadence near 60 FPS on this host",
+    "viewport 1440x900",
+    "viewport 393x852",
+    "viewport 320x568",
+    "viewport 852x393",
+    "dedicated drag zone moves paddle",
+    "instrumented mechanics: multiball",
+    "instrumented mechanics: ballCap",
+    "instrumented mechanics: wide",
+    "instrumented mechanics: laser",
+    "instrumented mechanics: collision",
+    "instrumented mechanics: speedRamp",
+    "instrumented mechanics: win",
+    "instrumented mechanics: particleCap",
+    "instrumented mechanics: loss",
+    "instrumented mechanics: effectsBounded",
+    "zero console or JavaScript errors"
+  ],
+  "viewports": [
+    {
+      "width": 1440,
+      "height": 900,
+      "canvas": {
+        "x": 299.375,
+        "y": 100,
+        "right": 1140.625,
+        "bottom": 771,
+        "width": 841.25,
+        "height": 671
+      },
+      "zone": {
+        "y": 805,
+        "bottom": 869
+      },
+      "fits": true,
+      "overflow": false,
+      "touchAction": "none"
+    },
+    {
+      "width": 393,
+      "height": 852,
+      "canvas": {
+        "x": 10,
+        "y": 268.5,
+        "right": 383,
+        "bottom": 568.5,
+        "width": 373,
+        "height": 300
+      },
+      "zone": {
+        "y": 774,
+        "bottom": 846
+      },
+      "fits": true,
+      "overflow": false,
+      "touchAction": "none"
+    },
+    {
+      "width": 320,
+      "height": 568,
+      "canvas": {
+        "x": 10,
+        "y": 155.703125,
+        "right": 310,
+        "bottom": 397.296875,
+        "width": 300,
+        "height": 241.59375
+      },
+      "zone": {
+        "y": 490,
+        "bottom": 562
+      },
+      "fits": true,
+      "overflow": false,
+      "touchAction": "none"
+    },
+    {
+      "width": 852,
+      "height": 393,
+      "canvas": {
+        "x": 247.25,
+        "y": 55,
+        "right": 604.75,
+        "bottom": 339,
+        "width": 357.5,
+        "height": 284
+      },
+      "zone": {
+        "y": 343,
+        "bottom": 385
+      },
+      "fits": true,
+      "overflow": false,
+      "touchAction": "none"
+    }
+  ],
+  "errors": [],
+  "cadence": {
+    "medianMs": 16.700000000000045,
+    "fps": 59.88023952095792,
+    "p95Ms": 33.400000000000034
+  },
+  "passed": true
+}
